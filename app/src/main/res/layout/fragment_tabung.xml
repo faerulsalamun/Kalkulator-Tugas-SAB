@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:padding="@dimen/dimen_8dp"
+                tools:context="id.web.faerul.kalkulator.ui.kubus.KubusFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rounded_white"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_8dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_layout_sisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/errorTextAppearance">
+
+                <EditText
+                    android:id="@+id/edit_text_sisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kubus_sisi"
+                    android:inputType="number"
+                    android:textSize="@dimen/text_16sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_layout_jari_jari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/errorTextAppearance">
+
+                <EditText
+                    android:id="@+id/edit_text_jari_jari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tabung_jari_jari"
+                    android:inputType="number"
+                    android:textSize="@dimen/text_16sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_layout_tinggi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/errorTextAppearance">
+
+                <EditText
+                    android:id="@+id/edit_text_tinggi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tabung_tinggi"
+                    android:inputType="number"
+                    android:textSize="@dimen/text_16sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/text_luas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_16dp"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textSize="@dimen/text_16sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/text_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_16sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_32dp"
+            android:background="@drawable/button_hitung"
+            android:text="@string/hitung"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

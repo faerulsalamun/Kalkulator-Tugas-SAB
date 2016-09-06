@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Kalkulator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Generic -->
+    <string name="hitung">Hitung</string>
+    <string name="faerul_salamun">Faerul Salamun</string>
+    <string name="nrp">133040088</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Nav Drawer -->
+    <string name="drawer_kubus">Kubus</string>
+    <string name="drawer_tabung">Tabung</string>
+    <string name="drawer_bola">Bola</string>
+    <string name="drawer_kerucut">Kerucut</string>
+
+    <!-- Kubus -->
+    <string name="kubus_title">Masukkan Sisi Kubus</string>
+    <string name="kubus_sisi">Sisi</string>
+
+    <!-- Tabung -->
+    <string name="tabung_volume">Volume</string>
+    <string name="tabung_jari_jari">Jari-Jari</string>
+    <string name="tabung_tinggi">Tinggi</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

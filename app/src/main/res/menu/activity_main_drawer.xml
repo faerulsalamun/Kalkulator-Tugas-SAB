@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kubus"
+            android:title="@string/drawer_kubus"/>
+        <item
+            android:id="@+id/nav_tabung"
+            android:title="@string/drawer_tabung"/>
+        <item
+            android:id="@+id/nav_bola"
+            android:title="@string/drawer_bola"/>
+        <item
+            android:id="@+id/nav_kerucut"
+            android:title="@string/drawer_kerucut"/>
+    </group>
+
+</menu>
