@@ -27,7 +27,7 @@
     <string name="tabung_jari_jari">Jari-Jari</string>
     <string name="tabung_tinggi">Tinggi</string>
 
-    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_splash_screen">Tugas Kalkulator SAB</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
